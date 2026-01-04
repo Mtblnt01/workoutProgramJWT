@@ -275,7 +275,7 @@ Response: `404 Not Found`
 
 ---
 
-**DELETE** `/users/:id` ⚠️ **CSAK ADMIN**
+**DELETE** `/users/:id` **CSAK ADMIN**
 
 Egy felhasználó törlése (Soft Delete). **Csak admin jogosultsággal.**
 
@@ -357,7 +357,7 @@ Response (ha nem található): `404 Not Found`
 
 ---
 
-**POST** `/workouts` ⚠️ **CSAK ADMIN**
+**POST** `/workouts` **CSAK ADMIN**
 
 Új edzésprogram létrehozása.  **Csak admin jogosultsággal.**
 
@@ -392,7 +392,7 @@ Response (ha nem admin): `403 Forbidden`
 
 ---
 
-**PUT** `/workouts/:id` ⚠️ **CSAK ADMIN**
+**PUT** `/workouts/:id` **CSAK ADMIN**
 
 Edzésprogram módosítása. **Csak admin jogosultsággal.**
 
@@ -427,7 +427,7 @@ Response (ha nem admin): `403 Forbidden`
 
 ---
 
-**DELETE** `/workouts/:id` ⚠️ **CSAK ADMIN**
+**DELETE** `/workouts/:id` **CSAK ADMIN**
 
 Edzésprogram törlése. **Csak admin jogosultsággal.**
 
